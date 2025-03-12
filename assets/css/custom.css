@@ -636,3 +636,7 @@ body.uikit .btn-download {
   overflow-y: scroll;
   padding-right: 10px !important;
 }
+
+.font-12{
+  font-size: 12px !important;
+}
