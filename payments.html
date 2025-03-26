@@ -417,329 +417,253 @@
 
 
       <div class="conatiner-fluid content-inner mt-n5 py-0">
-        <ul class="d-flex nav nav-pills mb-0 text-center profile-tab" data-toggle="slider-tab" id="profile-pills-tab" role="tablist" style=" margin-bottom: 16px !important">
-          <li class="nav-item">
-             <a class="nav-link active show" data-bs-toggle="tab" href="#profile-feed" role="tab" aria-selected="false">Individual</a>
-          </li>
-          <li class="nav-item">
-             <a class="nav-link" data-bs-toggle="tab" href="#profile-activity" role="tab" aria-selected="false">Group</a>
-          </li>
-       </ul>
-
+       
        
         <div class="row" style="justify-content: space-evenly;">
             <div class="col-sm-8">
 
-              <div class="profile-content tab-content">
-                <div id="profile-feed" class="tab-pane fade active show">
-                  <div class="card">
-                    <div class="card-header d-flex justify-content-between">
-                        <div class="header-title">
-                            <h4 class="card-title">Individual Payments & Loans</h4>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                       <form>
-                        <div class="row">
-                          <div class="col-md-6">
-                            <div class="form-group">
-                                <label class="form-label" for="exampleInputNumber1">Customer ID</label>
-                                <input type="number" class="form-control" id="exampleInputNumber1" placeholder="Enter customer ID">
-                            </div>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <label class="form-label" for="exampleFormControlSelect1">Package Code</label>
-                              <select class="form-select" id="exampleFormControlSelect1">
-                              <option selected="" disabled="">select your package code</option>
-                              <option>#42134</option>
-                              <option>#24562</option>
-                              <option>#53124</option>
-                              <option>#12313</option>
-                              </select>
-                          </div>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <label class="form-label" for="exampleInputText1">Full Name</label>
-                              <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter full name">
-                          </div>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="form-group">
-                                <label class="form-label" for="exampleInputNumber1">Contact Number</label>
-                                <input type="number" class="form-control" id="exampleInputNumber1" placeholder="Enter contact number">
-                            </div>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <label class="form-label" for="exampleInputText1">CNIC <span style="font-size: 12px;">(National Identity Card Number)</span></label>
-                              <input type="number" class="form-control" id="exampleInputText1" placeholder="Enter CNIC number">
-                          </div>
-                          </div>
-                          
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <label class="form-label" for="exampleInputText1">Passport Number</label>
-                              <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter passport number">
-                          </div>
-                          </div>
-    
-    
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <label class="form-label" for="exampleFormControlSelect1">Payment Type</label>
-                              <select class="form-select" id="exampleFormControlSelect1">
-                              <option selected="" disabled="">select payment type</option>
-                              <option>Payment</option>
-                              <option>Loan</option>
-                              </select>
-                          </div>
-                          </div>
-    
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <label class="form-label" for="exampleInputText1">Total Amount</label>
-                              <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter total amount">
-                          </div>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <label class="form-label" for="exampleInputText1">Outstanding Amount</label>
-                              <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter outstanding amount">
-                          </div>
-                          </div>
-                          <div class="col-md-12">
-                          <div class="form-group">
-                            <label class="form-label" for="exampleInputText1">Amount Paid</label>
-                            <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter amount paid">
-                        </div>
-                        </div>
-    
-    
-                        <div class="col-md-12">
-                          <div class="form-group">
-                            <label class="form-label" for="exampleFormControlTextarea1">Description</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" spellcheck="false"></textarea>
-                        </div>
-                        </div>
-    
-    
-    
-    
-                        </div>
-                        
-                        
-                            <button type="submit" class="btn btn-primary form-btn btn-md">Save</button>
-                        </form>
+              <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Payments</h4>
                     </div>
                 </div>
-                </div>
-                <div id="profile-activity" class="tab-pane fade">
-                  <div class="card">
-                    <div class="card-header d-flex justify-content-between">
-                        <div class="header-title">
-                            <h4 class="card-title">Group Payments & Loans</h4>
+                <div class="card-body">
+                   <form>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="form-label" for="exampleInputText1">Passport Number</label>
+                          <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter passport number">
+                      </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="form-label" for="exampleInputNumber1">Customer ID</label>
+                            <input type="number" class="form-control" id="exampleInputNumber1" placeholder="Enter customer ID">
                         </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="form-label" for="exampleFormControlSelect1">Package Code</label>
+                          <select class="form-select" id="exampleFormControlSelect1">
+                          <option selected="" disabled="">select your package code</option>
+                          <option>#42134</option>
+                          <option>#24562</option>
+                          <option>#53124</option>
+                          <option>#12313</option>
+                          </select>
+                      </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="form-label" for="exampleInputText1">Full Name</label>
+                          <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter full name">
+                      </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="form-label" for="exampleInputNumber1">Contact Number</label>
+                            <input type="number" class="form-control" id="exampleInputNumber1" placeholder="Enter contact number">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="form-label" for="exampleInputText1">CNIC <span style="font-size: 12px;">(National Identity Card Number)</span></label>
+                          <input type="number" class="form-control" id="exampleInputText1" placeholder="Enter CNIC number">
+                      </div>
+                      </div>
+                      
+
+
+                      <div class="col-md-12">
+                        <div class="form-group pos-re">
+                          <label class="form-label" for="exampleInputText1">Add Group Members</label>
+                          <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter passport number">
+                          <button class="addbtnform">+</button>
+                      </div>
+                      </div>
+
+
+                      <div class="col-md-12">
+                      <div class="table-responsive form-table">
+                        <table id="basic-table" class="table table-striped mb-0" role="grid">
+                           <thead>
+                              <tr>
+                                 <th>Date</th>
+                                 <th>Passport#</th>
+                                 <th>Name</th>
+                                 <th>Package</th>
+                                 <th>Type</th>                                     
+                                 <th>Amount</th>
+                                 <th>Status</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                            <tr>
+                              <td>19/03/2025</td>
+                              <td>BP-23412</td>
+                               <td>Rehan Khan</td>
+                               <td>Umrah</td>
+                               <td>Payments</td>
+                               <td>$14000</td>
+                               <td><div class="text-info">Pending</div></td>
+                            </tr>
+                            <tr>
+                              <td>19/03/2025</td>
+                              <td>BP-23412</td>
+                               <td>Rehan Khan</td>
+                               <td>Umrah</td>
+                               <td>Payments</td>
+                               <td>$14000</td>
+                               <td><div class="text-info">Pending</div></td>
+                            </tr>
+                            <tr>
+                              <td>19/03/2025</td>
+                              <td>BP-23412</td>
+                               <td>Rehan Khan</td>
+                               <td>Umrah</td>
+                               <td>Payments</td>
+                               <td>$14000</td>
+                               <td><div class="text-info">Pending</div></td>
+                            </tr>
+                            <tr>
+                              <td>19/03/2025</td>
+                              <td>BP-23412</td>
+                               <td>Rehan Khan</td>
+                               <td>Umrah</td>
+                               <td>Payments</td>
+                               <td>$14000</td>
+                               <td><div class="text-info">Pending</div></td>
+                            </tr>
+                            <tr>
+                              <td>19/03/2025</td>
+                              <td>BP-23412</td>
+                               <td>Rehan Khan</td>
+                               <td>Umrah</td>
+                               <td>Payments</td>
+                               <td>$14000</td>
+                               <td><div class="text-info">Pending</div></td>
+                            </tr>
+                            <tr>
+                              <td>19/03/2025</td>
+                              <td>BP-23412</td>
+                               <td>Rehan Khan</td>
+                               <td>Umrah</td>
+                               <td>Payments</td>
+                               <td>$14000</td>
+                               <td><div class="text-info">Pending</div></td>
+                            </tr>
+                            <tr>
+                              <td>19/03/2025</td>
+                              <td>BP-23412</td>
+                               <td>Rehan Khan</td>
+                               <td>Umrah</td>
+                               <td>Payments</td>
+                               <td>$14000</td>
+                               <td><div class="text-info">Pending</div></td>
+                            </tr>
+                            <tr>
+                              <td>19/03/2025</td>
+                              <td>BP-23412</td>
+                               <td>Rehan Khan</td>
+                               <td>Umrah</td>
+                               <td>Payments</td>
+                               <td>$14000</td>
+                               <td><div class="text-info">Pending</div></td>
+                            </tr>
+                            <tr>
+                              <td>19/03/2025</td>
+                              <td>BP-23412</td>
+                               <td>Rehan Khan</td>
+                               <td>Umrah</td>
+                               <td>Payments</td>
+                               <td>$14000</td>
+                               <td><div class="text-info">Pending</div></td>
+                            </tr>
+                            <tr>
+                              <td>19/03/2025</td>
+                              <td>BP-23412</td>
+                               <td>Rehan Khan</td>
+                               <td>Umrah</td>
+                               <td>Payments</td>
+                               <td>$14000</td>
+                               <td><div class="text-info">Pending</div></td>
+                            </tr>
+                            <tr>
+                              <td>19/03/2025</td>
+                              <td>BP-23412</td>
+                               <td>Rehan Khan</td>
+                               <td>Umrah</td>
+                               <td>Payments</td>
+                               <td>$14000</td>
+                               <td><div class="text-info">Pending</div></td>
+                            </tr>
+                            <tr>
+                              <td>19/03/2025</td>
+                              <td>BP-23412</td>
+                               <td>Rehan Khan</td>
+                               <td>Umrah</td>
+                               <td>Payments</td>
+                               <td>$14000</td>
+                               <td><div class="text-info">Pending</div></td>
+                            </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                     </div>
+
+
+
+
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label class="form-label" for="exampleFormControlSelect1">Payment Type</label>
+                          <select class="form-select" id="exampleFormControlSelect1">
+                          <option selected="" disabled="">select payment type</option>
+                          <option>Payment</option>
+                          <option>Loan</option>
+                          </select>
+                      </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="form-label" for="exampleInputText1">Total Amount</label>
+                          <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter total amount">
+                      </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="form-label" for="exampleInputText1">Outstanding Amount</label>
+                          <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter outstanding amount">
+                      </div>
+                      </div>
+                      <div class="col-md-12">
+                      <div class="form-group">
+                        <label class="form-label" for="exampleInputText1">Amount Paid</label>
+                        <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter amount paid">
                     </div>
-                    <div class="card-body">
-                       <form>
-                        <div class="row">
-                          <div class="col-md-6">
-                            <div class="form-group">
-                                <label class="form-label" for="exampleInputNumber1">Customer ID</label>
-                                <input type="number" class="form-control" id="exampleInputNumber1" placeholder="Enter customer ID">
-                            </div>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <label class="form-label" for="exampleFormControlSelect1">Package Code</label>
-                              <select class="form-select" id="exampleFormControlSelect1">
-                              <option selected="" disabled="">select your package code</option>
-                              <option>#42134</option>
-                              <option>#24562</option>
-                              <option>#53124</option>
-                              <option>#12313</option>
-                              </select>
-                          </div>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <label class="form-label" for="exampleInputText1">Full Name</label>
-                              <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter full name">
-                          </div>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="form-group">
-                                <label class="form-label" for="exampleInputNumber1">Contact Number</label>
-                                <input type="number" class="form-control" id="exampleInputNumber1" placeholder="Enter contact number">
-                            </div>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <label class="form-label" for="exampleInputText1">CNIC <span style="font-size: 12px;">(National Identity Card Number)</span></label>
-                              <input type="number" class="form-control" id="exampleInputText1" placeholder="Enter CNIC number">
-                          </div>
-                          </div>
-                          
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <label class="form-label" for="exampleInputText1">Passport Number</label>
-                              <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter passport number">
-                          </div>
-                          </div>
-
-
-                          <div class="col-md-12">
-                            <div class="form-group pos-re">
-                              <label class="form-label" for="exampleInputText1">Family Members Passport Number</label>
-                              <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter passport number">
-                              <button class="addbtnform">+</button>
-                          </div>
-                          </div>
-    
-
-                          <div class="col-md-12">
-                          <div class="table-responsive form-table">
-                            <table id="basic-table" class="table table-striped mb-0" role="grid">
-                               <thead>
-                                  <tr>
-                                     <th>Passport#</th>
-                                     <th>Name</th>
-                                     <th>Package</th>
-                                     <th>Amount</th>
-                                     <th>Status</th>
-                                  </tr>
-                               </thead>
-                               <tbody>
-                                <tr>
-                                   <td>BP-23412</td>
-                                   <td>Rehan Khan</td>
-                                   <td>Umrah</td>
-                                   <td>$14000</td>
-                                   <td><div class="text-info">Pending</div></td>
-                                </tr>
-                                <tr>
-                                   <td>BP-23412</td>
-                                   <td>Rehan Khan</td>
-                                   <td>Umrah</td>
-                                   <td>$14000</td>
-                                   <td><div class="text-info">Pending</div></td>
-                                </tr>
-                                <tr>
-                                   <td>BP-23412</td>
-                                   <td>Rehan Khan</td>
-                                   <td>Umrah</td>
-                                   <td>$14000</td>
-                                   <td><div class="text-info">Pending</div></td>
-                                </tr>
-                                  <tr>
-                                     <td>BP-23412</td>
-                                     <td>Rehan Khan</td>
-                                     <td>Umrah</td>
-                                     <td>$14000</td>
-                                     <td><div class="text-info">Pending</div></td>
-                                  </tr>
-                                  <tr>
-                                     <td>BP-23412</td>
-                                     <td>Rehan Khan</td>
-                                     <td>Umrah</td>
-                                     <td>$14000</td>
-                                     <td><div class="text-info">Pending</div></td>
-                                  </tr>
-                                  <tr>
-                                     <td>BP-23412</td>
-                                     <td>Rehan Khan</td>
-                                     <td>Umrah</td>
-                                     <td>$14000</td>
-                                     <td><div class="text-info">Pending</div></td>
-                                  </tr>
-                                  <tr>
-                                     <td>BP-23412</td>
-                                     <td>Rehan Khan</td>
-                                     <td>Umrah</td>
-                                     <td>$14000</td>
-                                     <td><div class="text-info">Pending</div></td>
-                                  </tr>
-                                  <tr>
-                                     <td>BP-23412</td>
-                                     <td>Rehan Khan</td>
-                                     <td>Umrah</td>
-                                     <td>$14000</td>
-                                     <td><div class="text-info">Pending</div></td>
-                                  </tr>
-                                  <tr>
-                                     <td>BP-23412</td>
-                                     <td>Rehan Khan</td>
-                                     <td>Umrah</td>
-                                     <td>$14000</td>
-                                     <td><div class="text-info">Pending</div></td>
-                                  </tr>
-                                  <tr>
-                                     <td>BP-23412</td>
-                                     <td>Rehan Khan</td>
-                                     <td>Umrah</td>
-                                     <td>$14000</td>
-                                     <td><div class="text-info">Pending</div></td>
-                                  </tr>
-                               </tbody>
-                            </table>
-                         </div>
-                         </div>
-
-
-
-    
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <label class="form-label" for="exampleFormControlSelect1">Payment Type</label>
-                              <select class="form-select" id="exampleFormControlSelect1">
-                              <option selected="" disabled="">select payment type</option>
-                              <option>Payment</option>
-                              <option>Loan</option>
-                              </select>
-                          </div>
-                          </div>
-    
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <label class="form-label" for="exampleInputText1">Total Amount</label>
-                              <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter total amount">
-                          </div>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <label class="form-label" for="exampleInputText1">Outstanding Amount</label>
-                              <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter outstanding amount">
-                          </div>
-                          </div>
-                          <div class="col-md-12">
-                          <div class="form-group">
-                            <label class="form-label" for="exampleInputText1">Amount Paid</label>
-                            <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter amount paid">
-                        </div>
-                        </div>
-    
-    
-                        <div class="col-md-12">
-                          <div class="form-group">
-                            <label class="form-label" for="exampleFormControlTextarea1">Description</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" spellcheck="false"></textarea>
-                        </div>
-                        </div>
-    
-    
-    
-    
-                        </div>
-                        
-                        
-                            <button type="submit" class="btn btn-primary form-btn btn-md">Save</button>
-                        </form>
                     </div>
+
+
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label class="form-label" for="exampleFormControlTextarea1">Description</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" spellcheck="false"></textarea>
+                    </div>
+                    </div>
+
+
+
+
+                    </div>
+                    
+                    
+                        <button type="submit" class="btn btn-primary form-btn btn-md">Save</button>
+                    </form>
                 </div>
-                </div>
-             </div>
+            </div>
 
             </div>
         </div>
