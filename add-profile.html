@@ -115,7 +115,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link "  href="add-profile.html">
+                        <a class="nav-link active"  href="add-profile.html">
                             <i class="icon">
                                 <svg class="icon-20" width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path opacity="0.4" d="M21.101 9.58786H19.8979V8.41162C19.8979 7.90945 19.4952 7.5 18.999 7.5C18.5038 7.5 18.1 7.90945 18.1 8.41162V9.58786H16.899C16.4027 9.58786 16 9.99731 16 10.4995C16 11.0016 16.4027 11.4111 16.899 11.4111H18.1V12.5884C18.1 13.0906 18.5038 13.5 18.999 13.5C19.4952 13.5 19.8979 13.0906 19.8979 12.5884V11.4111H21.101C21.5962 11.4111 22 11.0016 22 10.4995C22 9.99731 21.5962 9.58786 21.101 9.58786Z" fill="currentColor"></path>                                <path d="M9.5 15.0156C5.45422 15.0156 2 15.6625 2 18.2467C2 20.83 5.4332 21.5001 9.5 21.5001C13.5448 21.5001 17 20.8533 17 18.269C17 15.6848 13.5668 15.0156 9.5 15.0156Z" fill="currentColor"></path>                                <path opacity="0.4" d="M9.50023 12.5542C12.2548 12.5542 14.4629 10.3177 14.4629 7.52761C14.4629 4.73754 12.2548 2.5 9.50023 2.5C6.74566 2.5 4.5376 4.73754 4.5376 7.52761C4.5376 10.3177 6.74566 12.5542 9.50023 12.5542Z" fill="currentColor"></path>                                </svg>                            
                             </i>
@@ -154,7 +154,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active"  href="add-vendor.html">
+                        <a class="nav-link "  href="add-vendor.html">
                             <i class="icon">
                                 <svg class="icon-20" width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path opacity="0.4" d="M21.101 9.58786H19.8979V8.41162C19.8979 7.90945 19.4952 7.5 18.999 7.5C18.5038 7.5 18.1 7.90945 18.1 8.41162V9.58786H16.899C16.4027 9.58786 16 9.99731 16 10.4995C16 11.0016 16.4027 11.4111 16.899 11.4111H18.1V12.5884C18.1 13.0906 18.5038 13.5 18.999 13.5C19.4952 13.5 19.8979 13.0906 19.8979 12.5884V11.4111H21.101C21.5962 11.4111 22 11.0016 22 10.4995C22 9.99731 21.5962 9.58786 21.101 9.58786Z" fill="currentColor"></path>                                <path d="M9.5 15.0156C5.45422 15.0156 2 15.6625 2 18.2467C2 20.83 5.4332 21.5001 9.5 21.5001C13.5448 21.5001 17 20.8533 17 18.269C17 15.6848 13.5668 15.0156 9.5 15.0156Z" fill="currentColor"></path>                                <path opacity="0.4" d="M9.50023 12.5542C12.2548 12.5542 14.4629 10.3177 14.4629 7.52761C14.4629 4.73754 12.2548 2.5 9.50023 2.5C6.74566 2.5 4.5376 4.73754 4.5376 7.52761C4.5376 10.3177 6.74566 12.5542 9.50023 12.5542Z" fill="currentColor"></path>                                </svg>                            
                             </i>
@@ -423,7 +423,7 @@
               <div class="card">
                 <div class="card-header d-flex justify-content-between">
                     <div class="header-title">
-                        <h4 class="card-title">Add Vendor</h4>
+                        <h4 class="card-title">Add Customer Profile</h4>
                     </div>
                 </div>
                 <div class="card-body">
@@ -431,58 +431,103 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label class="form-label" for="exampleInputText1">Vendor Name</label>
-                          <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter your vendor name">
+                          <label class="form-label" for="exampleInputText1">Full Name</label>
+                          <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter full name">
                       </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label class="form-label" for="exampleInputText1">Description / Scope</label>
-                          <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter your description or scope">
+                          <label class="form-label" for="exampleInputText1">Nationality</label>
+                          <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter nationality">
+                      </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="form-label" for="exampleInputText1">CNIC <span style="font-size: 12px;">(National Identity Card Number)</span></label>
+                          <input type="number" class="form-control" id="exampleInputText1" placeholder="Enter CNIC number">
                       </div>
                       </div>
                       <div class="col-md-6">
                       <div class="form-group">
-                        <label class="form-label" for="exampleInputdate">Contract Start Date</label>
+                        <label class="form-label" for="exampleInputdate">Date of Birth</label>
+                        <input type="date" class="form-control" id="exampleInputdate" value="2025-01-20">
+                      </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="form-label" for="exampleInputText1">Email Address</label>
+                          <input type="email" class="form-control" id="exampleInputText1" placeholder="Enter email address">
+                      </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="form-label" for="exampleInputText1">Passport Number</label>
+                          <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter passport number">
+                      </div>
+                      </div>
+                      <div class="col-md-6">
+                      <div class="form-group">
+                        <label class="form-label" for="exampleInputdate">Passport Issue Date</label>
                         <input type="date" class="form-control" id="exampleInputdate" value="2025-01-20">
                       </div>
                       </div>
                       <div class="col-md-6">
                       <div class="form-group">
-                        <label class="form-label" for="exampleInputdate">Contract Expiry Date</label>
+                        <label class="form-label" for="exampleInputdate">Passport Expiry Date</label>
                         <input type="date" class="form-control" id="exampleInputdate" value="2025-01-20">
                       </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label class="form-label" for="exampleInputText1">Location/ Address</label>
-                          <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter your location or address">
+                          <label class="form-label" for="exampleFormControlSelect1">Gender</label>
+                          <select class="form-select" id="exampleFormControlSelect1">
+                          <option selected="" disabled="">select your gender</option>
+                          <option>MALE</option>
+                          <option>FEMALE</option>
+                          </select>
                       </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label class="form-label" for="exampleInputText1">Contact Person Name</label>
-                          <input type="text" class="form-control" id="exampleInputText1" placeholder="Enter your contact person name">
+                          <label class="form-label" for="exampleFormControlSelect1">Gender Type</label>
+                          <select class="form-select" id="exampleFormControlSelect1">
+                          <option selected="" disabled="">select your gender type</option>
+                          <option>ADULT</option>
+                          <option>CHILD</option>
+                          </select>
                       </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
                             <label class="form-label" for="exampleInputNumber1">Contact Number</label>
-                            <input type="number" class="form-control" id="exampleInputNumber1" placeholder="Enter your contact number">
+                            <input type="number" class="form-control" id="exampleInputNumber1" placeholder="Enter contact number">
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
-                            <label class="form-label" for="exampleInputEmail3">Email Address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter your email address">
+                            <label class="form-label" for="exampleInputNumber1">Emergency Number</label>
+                            <input type="number" class="form-control" id="exampleInputNumber1" placeholder="Enter emergency number">
                         </div>
                       </div>
-                      <div class="col-md-12">
+                      <div class="col-md-6">
                         <div class="form-group">
-                          <label class="form-label" for="exampleFormControlTextarea1">Remarks</label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" spellcheck="false"></textarea>
+                          <label class="form-label" for="exampleFormControlSelect1">Package Code</label>
+                          <select class="form-select" id="exampleFormControlSelect1">
+                          <option selected="" disabled="">select your package code</option>
+                          <option>#42134</option>
+                          <option>#24562</option>
+                          <option>#53124</option>
+                          <option>#12313</option>
+                          </select>
                       </div>
                       </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="form-label" for="exampleInputNumber1">Customer ID</label>
+                            <input type="number" class="form-control" id="exampleInputNumber1" placeholder="Enter customer ID">
+                        </div>
+                      </div>
+                      
                       <div class="col-md-12">
                         <div class="form-group">
                           <label for="customFile2" class="form-label custom-file-input">Upload Documents</label>
@@ -504,7 +549,7 @@
              <div class="card">
                 <div class="card-header d-flex justify-content-between">
                    <div class="header-title">
-                      <h4 class="card-title">Vendor Lists</h4>
+                      <h4 class="card-title">Customer Lists</h4>
                    </div>
                 </div>
                 <div class="card-body">
@@ -512,7 +557,7 @@
                       <table id="datatable" class="table table-striped" data-toggle="data-table">
                          <thead>
                             <tr>
-                               <th>Vendor Name</th>
+                               <th>Customer Name</th>
                                <th>Description / Scope</th>
                                <th>Contract Start Date</th>
                                <th>Contract Expiry Date</th>
