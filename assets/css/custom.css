@@ -640,3 +640,29 @@ body.uikit .btn-download {
 .font-12{
   font-size: 12px !important;
 }
+
+.profile-tab{
+   width: fit-content !important;
+  margin: 0 auto !important;
+}
+
+.form-table{
+  max-height: 300px;
+  margin-bottom: 30px;
+}
+.addbtnform{ 
+  background: #6d512b;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 100%;
+  padding: 3px 10px;
+  position: absolute;
+  bottom: 6px;
+  right: 8px;
+}
+
+
+  .pos-re{
+position: relative;
+  }
