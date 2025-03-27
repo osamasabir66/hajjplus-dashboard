@@ -666,3 +666,7 @@ body.uikit .btn-download {
   .pos-re{
 position: relative;
   }
+
+  .c-widget{
+    font-size: 12px;
+  }
